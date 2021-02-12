@@ -2,8 +2,8 @@
 # Author: Daniel Gonzalez
 
 
-studentPercentage = float(input('please enter your mark: '))
-
+value = float(input('please enter your mark: '))
+studentPercentage = round(value)
 
 ## -- Checks value is a valid percentage:
 if studentPercentage < 0 or studentPercentage > 100:
