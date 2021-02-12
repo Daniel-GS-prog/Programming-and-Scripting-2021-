@@ -12,6 +12,10 @@ number = int(input('Please enter your number: '))
 
 while number != secretNumber:
     print('Nop')
+    if number < secretNumber:
+        print('That`s too low')
+    elif number > secretNumber:
+        print('That`s too high')
     number = int(input('Plese try again: '))
 
 print('excelent! {} is equal to {}.'.format(number, secretNumber))
